@@ -18,7 +18,7 @@ Add the following to your `~/.vimrc` file and run `PluginInstall` in Vim.
 ```
 Plugin 'chriskempson/base16-vim'
 ```
-Then add colorscheme `base16-snazzy` to your `~/.vimrc`.
+Then add `colorscheme base16-snazzy` to your `~/.vimrc`.
 
 ## Related
 
