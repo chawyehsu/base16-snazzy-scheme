@@ -2,7 +2,22 @@
 
 > Elegant [base16](https://github.com/chriskempson/base16) theme with bright colors
 
+This is a color scheme for base16. The colors are chosen from the original [hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy) version, and follows the styling guidelines from [base16](http://chriskempson.com/projects/base16/). This scheme lets you use the snazzy colors on any application supported by base16.
+
 ![](screenshot.png)
+
+## Install / How to use
+
+This is a base16 color scheme definition. To use it on a application you want, you should take a look at [base16's repository](https://github.com/chriskempson/base16#template-repositories) to see if the application is supported by base16. Then chose a [base16 builder](https://github.com/chriskempson/base16#builder-repositories) to build the theme files of the application. It will generate a bunch of theme files based on different base16 color scheme definition. To use snazzy colors, just install the snazzy one into the application, and that's it!
+
+Here is a example to use base16-snazzy on vim:
+
+**Vundle**
+Add the following to your `~/.vimrc` file and run `PluginInstall` in Vim.
+```
+Plugin 'chriskempson/base16-vim'
+```
+Then add colorscheme `base16-snazzy` to your `~/.vimrc`.
 
 ## Related
 
