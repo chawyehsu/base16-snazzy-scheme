@@ -30,6 +30,7 @@ Then add `colorscheme base16-snazzy` to your `~/.vimrc`. *For details, see [base
 - [emacs-snazzy](https://github.com/weijiangan/emacs-snazzy) - Emacs version
 - [termite-snazzy](https://github.com/kbobrowski/termite-snazzy) - Termite version
 - [deepin-snazzy](https://github.com/xxczaki/deepin-snazzy) - Linux Deepin terminal version
+- [kitty-snazzy](https://github.com/connorholyday/kitty-snazzy) - Kitty version
 
 ## License
 
