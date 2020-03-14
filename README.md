@@ -2,6 +2,8 @@
 
 > Elegant [base16](https://github.com/chriskempson/base16) theme with bright colors
 
+![](base16-snazzy-scheme.png)
+
 This is a color scheme for base16. The colors are chosen from the original [hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy) version, and follows the styling guidelines from [base16](http://chriskempson.com/projects/base16/). This scheme lets you use the snazzy colors on any application supported by base16.
 
 ![](screenshot.png)
