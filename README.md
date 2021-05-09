@@ -43,4 +43,4 @@ Then add `colorscheme base16-snazzy` to your `~/.vimrc`. *For details, see [base
 
 ## License
 
-MIT © [Chawye Hsu](https://h404bi.com)
+MIT © [Chawye Hsu](https://chawyehsu.com)
