@@ -1,30 +1,42 @@
 # base16-snazzy-scheme
 
-> Elegant [base16](https://github.com/chriskempson/base16) theme with bright colors
+> Elegant [base16] theme with bright colors
 
-![](base16-snazzy-scheme.png)
+![palette preview](base16-snazzy-scheme.png)
 
-This is a color scheme for base16. The colors are chosen from the original [hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy) version, and follows the styling guidelines from [base16](http://chriskempson.com/projects/base16/). This scheme lets you use the snazzy colors on any application supported by base16.
+This is a color scheme for base16. The colors are chosen from the original [hyper-snazzy] version, and follows the styling guidelines from [base16]. This scheme lets you use the snazzy colors on any application supported by base16.
 
-![](screenshot.png)
+**NOTE**: the definition file in this repository is for the original [base16]
+specification. This color scheme is also synced to the [Tinted Theming] project.
 
-## Install / How to use
+## How to install and use this color scheme
 
-This is a base16 color scheme definition. To use it on an application you want, you should take a look at [base16's repository](https://github.com/chriskempson/base16#template-repositories) to see if the application is supported by base16. Then choose a [base16 builder](https://github.com/chriskempson/base16#builder-repositories) to build the theme files of the application. It will generate a bunch of theme files based on different base16 color scheme definition. To use snazzy colors, just install the snazzy one into the application, and that's it!
+This is a base16 color scheme definition. To use it on an application you need to
+install the generated theme file for that application from a place/repository or
+via a base16 plugin of the application, that contains the generated theme files.
 
-Here is an example to use base16-snazzy on **Vim**:
+### Examples
 
-**Vundle**
+For example, you can import and use this color scheme on Windows Console by installing
+the [concfg] tool and import this color scheme from the [base16-concfg] repository.
 
-Add the following code into your `~/.vimrc` file and run `PluginInstall` in Vim.
+``` powershell
+concfg import https://raw.githubusercontent.com/chawyehsu/base16-concfg/master/presets/base16-snazzy.json
 ```
+
+Here is another example to use `base16-snazzy` on **Vim** with Vundle. Simply
+add the following code into your `~/.vimrc` file and run `PluginInstall` in Vim.
+
+``` vim
 Plugin 'chriskempson/base16-vim'
 ```
-Then add `colorscheme base16-snazzy` to your `~/.vimrc`. *For details, see [base16-vim](https://github.com/chriskempson/base16-vim).*
+
+Then add `colorscheme base16-snazzy` to your `~/.vimrc`. For more information,
+please refer to [base16-vim] and the successor project [tinted-vim].
 
 ## Related
 
-- [hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy) - Hyper version
+- [hyper-snazzy] - Hyper version
 - [iterm2-snazzy](https://github.com/sindresorhus/iterm2-snazzy) - iTerm2 version
 - [terminal-snazzy](https://github.com/sindresorhus/terminal-snazzy) - Terminal version
 - [konsole-snazzy](https://github.com/miedzinski/konsole-snazzy) - Konsole version
@@ -43,4 +55,14 @@ Then add `colorscheme base16-snazzy` to your `~/.vimrc`. *For details, see [base
 
 ## License
 
-MIT © [Chawye Hsu](https://chawyehsu.com)
+**base16-snazzy-scheme** © [Chawye Hsu](https://github.com/chawyehsu). Released under the [MIT](LICENSE) license.
+
+> [Blog](https://chawyehsu.com) · GitHub [@chawyehsu](https://github.com/chawyehsu) · Twitter [@chawyehsu](https://twitter.com/chawyehsu)
+
+[Base16]: https://github.com/chriskempson/base16
+[Tinted Theming]: https://github.com/tinted-theming/schemes
+[concfg]: https://github.com/lukesampson/concfg
+[base16-concfg]: https://github.com/chawyehsu/base16-concfg
+[hyper-snazzy]: https://github.com/sindresorhus/hyper-snazzy
+[base16-vim]: https://github.com/chriskempson/base16-vim
+[tinted-vim]: https://github.com/tinted-theming/tinted-vim
