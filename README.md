@@ -2,6 +2,8 @@
 
 > Elegant [base16] theme with bright colors
 
+[![license][license-badge]](LICENSE)
+
 ![palette preview](base16-snazzy-scheme.png)
 
 This is a color scheme for base16. The colors are chosen from the original [hyper-snazzy] version, and follows the styling guidelines from [base16]. This scheme lets you use the snazzy colors on any application supported by base16.
@@ -52,6 +54,8 @@ please refer to [base16-vim] and the successor project [tinted-vim].
 - [terminus-snazzy](https://github.com/ThibzR/terminus-snazzy) - Terminus version
 - [windows-terminal-snazzy](https://github.com/Richienb/windows-terminal-snazzy) - Windows Terminal version
 - [alfred-snazzy](https://github.com/zeitchef/alfred-snazzy) - Alfred version
+- [warp-snazzy](https://github.com/GrimLink/warp-theme-snazzy) - Warp version
+- [tmux-snazzy](https://github.com/ivnvxd/tmux-snazzy) - Tmux version
 
 ## License
 
@@ -59,6 +63,7 @@ please refer to [base16-vim] and the successor project [tinted-vim].
 
 > [Blog](https://chawyehsu.com) · GitHub [@chawyehsu](https://github.com/chawyehsu) · Twitter [@chawyehsu](https://twitter.com/chawyehsu)
 
+[license-badge]: https://img.shields.io/github/license/chawyehsu/base16-snazzy-scheme?style=flat&logo=spdx&logoColor=e2e4e5&colorA=282a36&colorB=f1f1f0
 [Base16]: https://github.com/chriskempson/base16
 [Tinted Theming]: https://github.com/tinted-theming/schemes
 [concfg]: https://github.com/lukesampson/concfg
